@@ -29,6 +29,7 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
+    position: relative;
 }
 
 .logo-img {
@@ -107,6 +108,24 @@ body {
 .social i:hover {
     border: 1px solid var(--soft-magenta);
     color: var(--soft-magenta);
+}
+
+.attribution {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 1.3rem;
+    color: white;
+}
+
+.attribution a {
+    color: white;
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    color: black;
 }
 
 @media (min-width: 992px) {
